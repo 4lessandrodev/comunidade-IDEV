@@ -9,7 +9,7 @@ manage projects, and build software alongside 50 million developers.
 ☐ - Creating a custom readme profile, 
 ☐ - Follow people, 
 ☐ - Star repositore
-☐ - Create a public repositore with licence MIT
+☐ - Create a public repositore with licence MIT 
 ☐ - Create new branch develop
 ☐ - Create a new file index.html
 ☐ - Commit your new file with a message and a title
@@ -56,6 +56,7 @@ $ git "fix(scope): some message max 72 caract
 >
 > footer #1 max 45 caract"
 
+☐ - git remote add origin <link>
 ☐ - git push
 ☐ - git clone
 ☐ - git pull
