@@ -1,0 +1,88 @@
+GITHUB - STEPS ---------------------------------------
+
+☐ - What is github
+GitHub is a development platform inspired by the way you work.
+From open source to business, you can host and review code, 
+manage projects, and build software alongside 50 million developers.
+                                                    font: github.com
+☐ - Create an account
+☐ - Creating a custom readme profile, 
+☐ - Follow people, 
+☐ - Star repositore
+☐ - Create a public repositore with licence MIT
+☐ - Create new branch develop
+☐ - Create a new file index.html
+☐ - Commit your new file with a message and a title
+☐ - Create a pull request between master and develop, insert a title and a message
+☐ - Respond to a review, add a comment and edit the file
+☐ - Merge pull request
+☐ - Publish your page
+☐ - Delete your develop branch
+
+GIT - STEPS ------------------------------------------
+
+☐ WHAT IS GIT?
+Git is a free and open source distributed version control system designed to handle everything
+from small to very large projects with speed and efficiency.
+                                                                                 font: git.com
+☐ - mkdir <folder>
+☐ - rmdir <folder>
+☐ - cd ../
+☐ - git init
+☐ - clear
+☐ - git status
+☐ - touch file.html
+☐ - rm file.html
+☐ - mv <origin> <destin>
+☐ - ls
+☐ - git add file.html
+☐ - git add .
+☐ - git commit -m "initial commit"
+☐ - Conventional commit lint
+
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+#Messages types: 'build', 'ci', 'docs', 'feat', 'fix', 'perf', 'refactor', 
+'revert', 'style', 'test'
+
+Exemple:
+$ git "fix(scope): some message max 72 caract
+>
+> details max 255 caract
+>
+> footer #1 max 45 caract"
+
+☐ - git push
+☐ - git clone
+☐ - git pull
+☐ - git log -1
+☐ - gitk
+☐ - git commit --amend -m "feat(index): message edited"
+☐ - git rm index.html (Remove um arquivo adicionado ao stage)
+☐ - git tag -a v1.0 -m "Mensagem aqui" (Cria uma tag de versão)
+☐ - git checkout v1.0 (Exibe detalhes da tag criada)
+☐ - git reflog (Lista a relação de HEADS de commits realizados)
+☐ - git reset --hard <sha1-commit-id> (Volta a versão do código para uma HEAD específica)
+☐ - git remote -v	(Exibe os repositórios remotos)
+☐ - git remote rm origin	(Remove os repositórios remotos)
+☐ - .gitignore
+☐ - git checkout -b <branch> (Cria uma nova branch local)
+☐ - git push --set-upstream origin <branch> (Cria uma nova branch remota)
+☐ - git merge <branch>
+☐ - git branch -d <branch> (Excluir uma branch)
+
+ATUALIZAR UM FORK 
+
+☐ - git remote add upstream https://github.com/code.......
+☐ - git fetch upstream
+☐ - git rebase upstream/master
+
+REFERÊNCIAS:
+https://www.conventionalcommits.org/en/v1.0.0/
+https://commitlint.io/  
+https://git-scm.com/docs 
+https://lab.github.com/

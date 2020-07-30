@@ -1,0 +1,82 @@
+		
+	DESAFIO EM DUPLA ---------------------------------------
+	
+	MEMBRO A = MA, MEMBRO B = MB
+	
+		☐ - MA: Criar um repositório remoto com Licença MIT e um arquivo .gitignore nodeJS,
+		Obs: Ao criar o repositório lembre-se de colocar uma descrição para o projeto
+		☐ - MA e MB: clonar o repositório para o ambiente local
+		☐ - MB: Criar um arquivo via comando chamado index.html e inserir o seguinte código no mesmo:
+	
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="UTF-8"/>
+				<title>Desafio-I</title>
+			</head>
+			<body style="padding:15%">
+			<!-- Conteúdo -->
+			</body>
+		</html>
+		
+	Obs; Assim que inserir o código no arquivo, atualize o repositório remoto 
+	☐ MA: Deve baixar as atualizações; e onde está escrito conteúdo deve substituir por:
+	
+	<p>Era uma vez um homem que estava andando por uma estrada quando ouviu um gato miando
+	em cima de uma árvore. O gato estava preso e precisava de ajuda para sair. 
+	Quando o homem estendeu a mão, o gato ficou com medo e arranhou o homem. 
+	O homem se assustou mas não recuou. Ele tentou de novo e de novo, mesmo quando 
+	o gato continuou a arranhar suas mãos.<p>
+	
+	Obs: Assim que fizer suba a atualização para o github 
+	
+	☐ MB: Baixe as atualizações e adicione mais o conteúdo abaixo:
+	
+	<p>Outro homem passava por ali e vendo o que se passava disse:<p>
+	<p>'Apenas deixe estar! O gato encontrará uma maneira de sair depois'.</p>
+	<p>O homem não deu ouvidos e tentou até que conseguiu ajudar o gato.</p>
+	<p>Após colocar o gato no chão disse ao tal homem:</p>
+	
+	Obs: Assim que o fizer suba a atualização para o github
+	
+	☐ MA: Insira o restante da história
+	
+	<p>'O gato é um animal e seus instintos o fazem arranhar e se defender. 
+	Eu sou um humano e meus instintos me fazem ter paciência e ajudar'.</p>
+	<p><strong>Moral da história: Trate todos ao seu redor como você quer 
+	ser tratado e respeite o próximo!</strong></p>
+	
+	☐ - Suba as atualizações para o github
+	☐ - Publique a página pelo github pages
+	
+	☐ MB: Crie um readme com um título, passos realizados, nome da dupla e link
+	para acesso à página publicada no github pages
+	
+	DESAFIO EM EQUIPE: ---------------------------------------
+	
+	MA e MB (Sugestão utilize o live share) 
+	
+		☐ - Fork o projeto de outra dupla (Verifique se já foi realizado um fork)
+		☐ - Clone o mesmo para o respositório local
+		☐ - Crie uma nova branch chamada develop
+		☐ - Insira uma imagem no topo da página que ilustre a história
+		☐ - Teste se tudo está ok,
+		☐ - Dê commit às alterações e em seguida merge com a branch principal
+		☐ - Exclua e branch develop
+		☐ - Suba a atualização para o repositório remoto
+		☐ - Abra um novo pull request para a dupla aceitar
+	
+	☐ Cada dupla deve aceitar o pull request e inserir um comentário e um emoji no código adicionado
+	em forma de agradecimento pela colaboração.
+	
+	☐ Responder o questionário para pontuar no ranking
+	https://forms.gle/5DBFdgZWK94Snj8B6
+	
+	
+	
+	
+	
+	
+	
+		 
+			
