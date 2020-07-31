@@ -6,6 +6,7 @@
 	
 		☐ - MA: Criar um repositório remoto com Licença MIT e um arquivo .gitignore nodeJS,
 		Obs: Ao criar o repositório lembre-se de colocar uma descrição para o projeto
+		☐ - MA: Dê acesso de colaborador ao membro B para o repositório criado
 		☐ - MA e MB: clonar o repositório para o ambiente local
 		☐ - MB: Criar um arquivo via comando chamado index.html e inserir o seguinte código no mesmo:
 	

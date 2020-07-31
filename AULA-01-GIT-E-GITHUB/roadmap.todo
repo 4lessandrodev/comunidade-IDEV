@@ -1,23 +1,23 @@
 GITHUB - STEPS ---------------------------------------
 
-☐ - What is github
+✔ - What is github @done (30/07/2020 21:14:27)
 GitHub is a development platform inspired by the way you work.
 From open source to business, you can host and review code, 
 manage projects, and build software alongside 50 million developers.
                                                     font: github.com
-☐ - Create an account
-☐ - Creating a custom readme profile, 
-☐ - Follow people, 
-☐ - Star repositore
-☐ - Create a public repositore with licence MIT 
-☐ - Create new branch develop
-☐ - Create a new file index.html
-☐ - Commit your new file with a message and a title
-☐ - Create a pull request between master and develop, insert a title and a message
-☐ - Respond to a review, add a comment and edit the file
-☐ - Merge pull request
-☐ - Publish your page
-☐ - Delete your develop branch
+✔ - Create an account @done (30/07/2020 21:14:35)
+✔ - Creating a custom readme profile, @done (30/07/2020 21:24:29)
+✔ - Follow people, @done (30/07/2020 21:26:27)
+✔ - Star repositore @done (30/07/2020 21:27:34)
+✔ - Create a public repositore with licence MIT @done (30/07/2020 21:30:33)
+✔ - Create new branch develop @done (30/07/2020 21:38:11)
+✔ - Create a new file index.html @done (30/07/2020 21:38:12)
+✔ - Commit your new file with a message and a title @done (30/07/2020 21:38:14)
+✔ - Create a pull request between master and develop, insert a title and a message @done (30/07/2020 21:38:17)
+✔ - Respond to a review, add a comment and edit the file @done (30/07/2020 21:38:19)
+✔ - Merge pull request @done (30/07/2020 21:38:20)
+✔ - Publish your page @done (30/07/2020 21:38:21)
+✔ - Delete your develop branch @done (30/07/2020 21:38:22)
 
 GIT - STEPS ------------------------------------------
 
@@ -25,20 +25,20 @@ GIT - STEPS ------------------------------------------
 Git is a free and open source distributed version control system designed to handle everything
 from small to very large projects with speed and efficiency.
                                                                                  font: git.com
-☐ - mkdir <folder>
-☐ - rmdir <folder>
-☐ - cd ../
-☐ - git init
-☐ - clear
-☐ - git status
-☐ - touch file.html
-☐ - rm file.html
-☐ - mv <origin> <destin>
-☐ - ls
-☐ - git add file.html
-☐ - git add .
-☐ - git commit -m "initial commit"
-☐ - Conventional commit lint
+✔ - mkdir <folder> @done (30/07/2020 21:43:36)
+✔ - rmdir <folder> @done (30/07/2020 21:44:40)
+✔ - cd ../ @done (30/07/2020 21:45:13)
+✔ - git init @done (30/07/2020 21:47:07)
+✔ - clear @done (30/07/2020 21:47:08)
+✔ - git status @done (30/07/2020 21:47:09)
+✔ - touch file.html @done (30/07/2020 21:51:06)
+✔ - rm file.html @done (30/07/2020 21:51:09)
+✔ - mv <origin> <destin> @done (30/07/2020 21:52:21)
+✔ - ls @done (30/07/2020 21:53:07)
+✔ - git add file.html @done (30/07/2020 21:53:09)
+✔ - git add . @done (30/07/2020 21:53:11)
+✔ - git commit -m "initial commit" @done (30/07/2020 22:14:09)
+✔ - Conventional commit lint @done (30/07/2020 22:14:11)
 
 <type>[optional scope]: <description>
 
@@ -56,25 +56,25 @@ $ git "fix(scope): some message max 72 caract
 >
 > footer #1 max 45 caract"
 
-☐ - git remote add origin <link>
-☐ - git push
-☐ - git clone
-☐ - git pull
-☐ - git log -1
-☐ - gitk
-☐ - git commit --amend -m "feat(index): message edited"
-☐ - git rm index.html (Remove um arquivo adicionado ao stage)
-☐ - git tag -a v1.0 -m "Mensagem aqui" (Cria uma tag de versão)
-☐ - git checkout v1.0 (Exibe detalhes da tag criada)
+✔ - git remote add origin <link> @done (30/07/2020 22:14:41)
+✔ - git push @done (30/07/2020 22:14:43)
+✔ - git clone @done (30/07/2020 22:28:04)
+✔ - git pull @done (30/07/2020 22:21:59)
+✔ - git log -1 @done (30/07/2020 22:25:05)
+✔ - gitk @done (30/07/2020 22:25:06)
+✔ - git commit --amend -m "feat(index): message edited" @done (30/07/2020 22:30:17)
+✔ - git rm index.html (Remove um arquivo adicionado ao stage) @done (30/07/2020 22:30:33)
+✔ - git tag -a v1.0 -m "Mensagem aqui" (Cria uma tag de versão) @done (30/07/2020 22:33:21)
+✔ - git checkout v1.0 (Exibe detalhes da tag criada) @done (30/07/2020 22:33:23)
 ☐ - git reflog (Lista a relação de HEADS de commits realizados)
 ☐ - git reset --hard <sha1-commit-id> (Volta a versão do código para uma HEAD específica)
 ☐ - git remote -v	(Exibe os repositórios remotos)
 ☐ - git remote rm origin	(Remove os repositórios remotos)
 ☐ - .gitignore
-☐ - git checkout -b <branch> (Cria uma nova branch local)
-☐ - git push --set-upstream origin <branch> (Cria uma nova branch remota)
-☐ - git merge <branch>
-☐ - git branch -d <branch> (Excluir uma branch)
+✔ - git checkout -b <branch> (Cria uma nova branch local) @done (30/07/2020 22:36:59)
+✔ - git push --set-upstream origin <branch> (Cria uma nova branch remota) @done (30/07/2020 22:39:07)
+✔ - git merge <branch> @done (30/07/2020 22:39:08)
+✔ - git branch -d <branch> (Excluir uma branch) @done (30/07/2020 22:40:32)
 
 ATUALIZAR UM FORK 
 
