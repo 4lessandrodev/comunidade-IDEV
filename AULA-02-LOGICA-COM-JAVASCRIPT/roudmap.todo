@@ -1,0 +1,56 @@
+AULA 02 - LÓGICA DE PROGRAMAÇÃO COM JAVASCRIPT:
+
+    ☐ - UM POUCO SOBRE LÓGICA
+    VARIÁVEIS:
+        ☐ - VAR
+        ☐ - LET
+        ☐ - CONST
+
+    OPERADORES ARITMÉTICOS: 
+        ☐ - SOMA(+)
+        ☐ - SUBTRAÇÃO(-)
+        ☐ - DIVISÃO(/)
+        ☐ - MULTIPLICAÇÃO
+        ☐ - MÓDULO(%)
+        ☐ - INCREMENTO(++)
+        ☐ - DECREMENTO(--)
+    
+        ☐ - <=
+        ☐ - >=
+        ☐ - == OU ===
+        ☐ - ||
+        ☐ - != OU !==
+        ☐ - &&
+
+    TIPOS DE DADOS:
+        ☐ - STRING
+        ☐ - NUMBER
+        ☐ - BOOLEAN
+        ☐ - ARRAY
+        ☐ - OBJECT
+        ☐ - NULL
+        ☐ - ""
+
+    CONDICIONAIS:
+        ☐ - IF
+        ☐ - IF ELSE
+        ☐ - IF IFELSE ELSE
+    
+    LAÇOS DE REPETIÇÃO:
+        ☐ - FOR
+        ☐ - WHILE
+	
+	MÉTODOS DE ARRAY:
+		☐ - PUSH
+		☐ - POP
+		☐ - SLICE
+		☐ - SPLICE
+		☐ - FIND
+		☐ - SORT
+	☐ - OBJECT
+		☐ - CLASSES CONSTRUTORAS
+        
+    FUNÇÕES:
+        ☐ - FUNÇÕES CONVENCIONAIS 
+        ☐ - FUNÇÕES COM RETORNO 
+        ☐ - ARROW FUNCTIONS 

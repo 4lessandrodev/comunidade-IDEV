@@ -1,0 +1,26 @@
+
+☐ Crie um repositório no github 
+☐ Dê acesso ao seu parceiro
+☐ Coloque todo o conteúdo que está na pasta arquivos no repositório
+☐ Suba as atualizações para o github
+☐ Abra no navegador o arquivo index.html que está dentro da pasta arquivos
+☐ Abra o modo debugger (F12) e veja os erros de variáveis não definidas que aparece no console 
+☐ Para cada erro defina a variável no arquivo arquivos/src/js/variaveis.js
+OBSERVAÇÃO:
+variáveis referente ao membro A devem ser definidas pelo membro A e variáveis 
+referente ao membro B devem ser definidas pelo membro B, as demais qualquer membro pode definir
+☐ Ao finalizar publique a página com github pages 
+
+CONTINUAÇÃO:
+Crie a tabuada de 7 para cada tipo de operação
+divisão, subtração , multiplicação e soma.
+Dentro da pasta arquivos/src/js tem um arquivo para cada operação
+
+☐ O fator multiplicador da tabuada deve ser uma variável
+☐ Membro A deve fazer as operações de 0 a 4
+☐ Membro B deve fazer as operações de 5 a 10
+☐ Salve o resultado de cada linha da tabuada em uma variável 
+☐ Encontre o total somando o resultado de cada linha da tabuada
+☐ O total para cada tabuada compare com o número 77, usando os operadores 
+ ===, !==, &&, || e salvando o resultado dessa comparação em uma variável
+☐ Execute um console log para imprimir o resultado de cada comparação

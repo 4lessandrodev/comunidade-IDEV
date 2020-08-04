@@ -1,0 +1,50 @@
+
+const _avatarMemberA = document.getElementById('avatar_member_A');
+const _avatarMemberB = document.getElementById('avatar_member_B');
+const _nameMemberA = document.getElementById('name_member_A');
+const _nameMemberB = document.getElementById('name_member_B');
+const _nameMemberAinText = document.getElementById('name_member_A_text');
+const _nameMemberBinText = document.getElementById('name_member_B_text');
+const _linkGithubMemberA = document.getElementById('github_member_A');
+const _linkGithubMemberB = document.getElementById('github_member_B');
+const _city = document.getElementById('city');
+const _day = document.getElementById('day');
+const _month = document.getElementById('month');
+const _year = document.getElementById('year');
+const _comunnityName = document.getElementById('comunidade_name');
+const _comunidadeNameText = document.getElementById('comunidade_name_text');
+const _challengeTitle = document.getElementById('challenge_title');
+const _technologiesYouLearned = document.getElementById('technologies_you_learned');
+const _githubUserNameMemberA = document.getElementById('github_member_A_name');
+const _githubUserNameMemberB = document.getElementById('github_member_B_name');
+const _professionalObjetive = document.getElementById('professional_objetive');
+const _money = document.getElementById('money');
+const _yearYourObjective = document.getElementById('year_your_objective');
+
+
+const _nameAssingMemberA = document.getElementById('name_member_A_assign');
+const _nameAssingMemberB = document.getElementById('name_member_B_assign');
+
+_avatarMemberA.style.backgroundImage = `url('${linkAvatarMemberA}')`;
+_avatarMemberB.style.backgroundImage = `url('${linkAvatarMemberB}')`;
+_linkGithubMemberA.href = linkGithubMemberA;
+_linkGithubMemberB.href = linkGithubMemberB;
+_nameMemberA.innerText = nameMemberA;
+_nameMemberB.innerText = nameMemberB;
+_nameAssingMemberA.innerText = nameMemberA;
+_nameAssingMemberB.innerText = nameMemberB;
+_comunnityName.innerText = comunnityName;
+_city.innerText = city;
+_day.innerText = day;
+_month.innerText = month;
+_year.innerText = year;
+_comunidadeNameText.innerText = comunnityName;
+_nameMemberAinText.innerText = nameMemberA;
+_nameMemberBinText.innerText = nameMemberB;
+_challengeTitle.innerText = challengeTitle;
+_technologiesYouLearned.innerText = technologiesYouLearned;
+_githubUserNameMemberA.innerText = githubUserNameMemberA;
+_githubUserNameMemberB.innerText = githubUserNameMemberB;
+_professionalObjetive.innerText = professionalObjetive;
+_money.innerText = money;
+_yearYourObjective.innerText = yearYourObjective;

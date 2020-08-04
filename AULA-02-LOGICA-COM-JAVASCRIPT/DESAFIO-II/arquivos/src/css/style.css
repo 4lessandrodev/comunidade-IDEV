@@ -1,0 +1,143 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main__header{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 30%;
+    color: white;
+}
+
+.main__header__texts__title{
+    margin: 0;
+    padding: 5% 0 0 9%;
+    font-weight:600;
+}
+
+.main__header__texts__subtitle{
+    margin: 0;
+    padding: 0 0 0 9%;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.main__avatars{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    max-width: 80%;
+}
+
+.main__avatar{
+    display: block;
+    background-color: whitesmoke;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    position: fixed;
+    top: 14%;
+    z-index: 1;
+    box-shadow: 4px -1px 53px -19px rgba(0,0,0,1);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__avatar:hover{
+    display: block;
+    background-color: whitesmoke;
+    cursor: pointer;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: 4px -1px 53px -19px rgba(0,0,0,1);
+}
+
+#avatar_member_A{
+    left: 25%;
+}
+
+#avatar_member_B{
+    right: 25%;
+}
+
+.main__text{
+    display: block;
+    padding-top: 17%;
+    width: 100%;
+    padding-bottom: 4%;
+}
+
+.main__avatars__info{
+    text-align: center;
+    background-color: rgb(144, 255, 255);
+    padding: 3px 0;
+    border-radius: 7px;
+    font-weight: 600;
+    position: relative;
+    bottom: -140px;
+}
+
+.main__text__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.no__padding{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .main__avatar{
+        display: block;
+        background-color: whitesmoke;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: fixed;
+        top: 14%;
+        z-index: 1;
+        box-shadow: 4px -1px 53px -19px rgba(0,0,0,1);
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .main__avatar:hover{
+        display: block;
+        background-color: whitesmoke;
+        cursor: pointer;
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: fixed;
+        box-shadow: 4px -1px 53px -19px rgba(0,0,0,1);
+    }
+
+    #avatar_member_A{
+        left: 35%;
+    }
+    
+    #avatar_member_B{
+        right: 10%;
+    }
+ }

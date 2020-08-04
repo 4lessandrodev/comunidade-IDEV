@@ -1,0 +1,20 @@
+    //Suas variáveis abaixo
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
