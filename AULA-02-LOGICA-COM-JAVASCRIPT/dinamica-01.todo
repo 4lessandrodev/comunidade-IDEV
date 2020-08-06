@@ -1,0 +1,39 @@
+Dojo
+☐ Criar uma variável com o nome da comunidade;
+    - Executar o console log da mesma
+☐ Criar uma variável que armazena um texto;
+    - Executar o console log da mesma
+☐ Coloque a primeira letra do texto em maiúscula;
+    - Executar o console log da mesma
+☐ Coloque todas as outras letras do texto em minúscula;
+    - Executar o console log da mesma
+☐ Crie uma variável que armazena a data atual;
+    - Executar o console log da mesma
+☐ Imprima apenas o dia e o mês atual;
+☐ Crie uma variável que guarde o valor do salário mínimo;
+    - Executar o console log da mesma
+☐ Crie uma variável que armazena a quantidade de caracteres do texto do passo 2;
+    - Executar o console log da mesma
+☐ Crie um array que armazena o nome dos membros presentes;
+    - Executar o console log da mesma
+☐ Imprima a quantidade de nomes no array definido anteriormente;
+☐ Crie um array de objetos com o nome de cada membro da comunidade e a cor favorita 
+    - Imprima em formato de tabela 
+
+☐ Crie uma tabuada de multiplicação de 9, multiplicando de 0 a 10. Utilize apenas duas variáveis
+    - uma das variáveis deve ser o fator multiplicador onde eu possa escolher qual tabuada será exibida no console
+    - O resultado no console deve ser uma tabela conforme abaixo:
+    ------------------------------
+    | indice | fator | resultado |
+    ------------------------------
+    |   1    |   9   |     9     |
+    |   2    |   9   |     18    |
+    |   3    |   9   |     27    |
+    |   4    |   9   |     36    |
+    |   5    |   9   |     45    |
+    |   6    |   9   |     54    |
+    |   7    |   9   |     63    |
+    |   8    |   9   |     72    |
+    |   9    |   9   |     81    |
+    |   10   |   9   |     90    |
+    ------------------------------

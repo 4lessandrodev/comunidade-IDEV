@@ -25,6 +25,4 @@ Utilize o arquivo arquivos/src/js/tabuada-adicao.js como modelo
 ☐ Insira um console log para imprimir cada linha da operação
  - A saída no console deve ser "7 x 1 = 7"
 ☐ Encontre o total geral somando o resultado de cada linha da tabuada
-☐ Após obter o total geral para cada tabuada compare com o número 77, usando os operadores 
- ===, !==, &&, ||, >=, <= e salvando o resultado dessa comparação em uma variável
-☐ Execute um console log para imprimir o resultado de cada comparação
+
