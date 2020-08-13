@@ -46,7 +46,8 @@ No arquivo students.js crie as seguintes funções
 
 Observação:
 Você deve validar os dados obrigatórios antes de salvar;
-O atributo id deve ser incremental;
+O atributo id deve ser incremental (O atributo PRIMARY KEY identifica exclusivamente
+cada registro em uma tabela.);
 Todos os atributos salvos devem estar em upercase exemplo: name: "ALESSANDRO";
 O nome das propriedades devem estar em inglês;
 
