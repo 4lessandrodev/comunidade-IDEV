@@ -1,8 +1,6 @@
     //Suas variáveis abaixo
 
-    
-    
-    
+
     
     
     

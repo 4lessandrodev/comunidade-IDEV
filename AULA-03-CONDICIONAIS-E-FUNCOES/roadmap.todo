@@ -1,0 +1,34 @@
+FUNÇÕES:
+☐ FUNCTIONS
+☐ IF
+☐ ELSE IF
+☐ ELSE
+☐ SWITCH
+☐ FOR
+
+MÉTODOS DE ARRAY: 
+☐ PUSH
+☐ POP
+☐ UNSHIFT
+☐ SHIFT
+☐ INDEXOF
+☐ SPLICE
+☐ FIND
+☐ FILTER
+☐ LENGTH
+☐ FOREACH
+
+
+DINÂMICA:
+
+- Criar uma função que recebe como parãmetro uma idade e valida se um usuário é maior de idade
+
+- Criar uma função que recebe por parâmetro um horário e retorna o resultado dizendo se é 
+manha, tarde ou noite; 
+
+- Criar uma tabuada utlizando o for de modo que adicione em um array de objetos 
+cada operação e no final do for imprima uma tabela com as operações;
+
+- Criar uma função que recebe por parâmetro um dia e um horario e retorna se você pode ir ao banco
+Critério: o funcionamento do banco é em dia útil, das 10h às 15h 
+
