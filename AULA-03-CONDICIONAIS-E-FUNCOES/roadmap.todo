@@ -21,14 +21,37 @@ MÉTODOS DE ARRAY:
 
 DINÂMICA:
 
-- Criar uma função que recebe como parãmetro uma idade e valida se um usuário é maior de idade
+- Criar uma função que recebe como parâmetro a idade de um usuário e retorne uma mensagem dizendo
+qual a sua faixa etária; 
+☐ Menor que 12 anos, criança
+☐ Entre 12 e 18 Adolescente 
+☐ Entre 18 e 60 Adulto 
+☐ Maior que 60 Melhor idade
 
-- Criar uma função que recebe por parâmetro um horário e retorna o resultado dizendo se é 
-manha, tarde ou noite; 
 
-- Criar uma tabuada utlizando o for de modo que adicione em um array de objetos 
-cada operação e no final do for imprima uma tabela com as operações;
 
-- Criar uma função que recebe por parâmetro um dia e um horario e retorna se você pode ir ao banco
-Critério: o funcionamento do banco é em dia útil, das 10h às 15h 
+- Criar uma função que recebe dois parâmetros, um é o fator e outro um simbolo aritmético (*, -, +, /),
+☐ Crie um fluxo que verica qual o tipo de simbolo foi informado
+☐ Dentro desta função crie um laço de repetição de 0 a 10 que gera uma tabuada
+☐ Cada operação deve ser um objeto { indice: x, simbolo: y, fator: z, resultado: w}
+☐ Adicione cada operação em um array
+☐ Imprima o array em formato de tabela
+
+
+
+- Criar uma função que recebe por parâmetro um dia ("segunda-feira") e um horario (10) 
+e retorna uma mensagem dizendo se você pode ir ao banco nesse dia e horario informado
+
+Critério: o funcionamento do banco é 
+"segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"
+horarios: de 10 até 15h
+
+
+
+- Criar uma função que recebe por parâmetro um horário de 0 à 24 e retorna o resultado dizendo se é 
+madrugada, manhã, tarde ou noite; 
+☐ Entre 00:00 e 06:00: madrugada 
+☐ Entre 06:00 e 12:00: manhã 
+☐ Entre 12:00 e 18:00: tarde
+☐ Entre 18:00 e 24:00: noite
 
