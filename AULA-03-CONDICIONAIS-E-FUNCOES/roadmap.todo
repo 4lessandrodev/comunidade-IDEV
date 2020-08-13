@@ -33,9 +33,14 @@ qual a sua faixa etária;
 - Criar uma função que recebe dois parâmetros, um é o fator e outro um simbolo aritmético (*, -, +, /),
 ☐ Crie um fluxo que verica qual o tipo de simbolo foi informado
 ☐ Dentro desta função crie um laço de repetição de 0 a 10 que gera uma tabuada
-☐ Cada operação deve ser um objeto { indice: x, simbolo: y, fator: z, resultado: w}
-☐ Adicione cada operação em um array
+☐ Cada iteração deve ser um objeto { indice: x, simbolo: y, fator: z, resultado: w}
+☐ Adicione cada iteração em um array
 ☐ Imprima o array em formato de tabela
+Ao final você deve ter a tabela de uma tabuada com indice de 1 a 10
+----------------------------------------
+| indice | simbolo | fator | resultado |
+|    1   |    *    |   7   |     7     |
+|    2   |    *    |   7   |     14    |
 
 
 
