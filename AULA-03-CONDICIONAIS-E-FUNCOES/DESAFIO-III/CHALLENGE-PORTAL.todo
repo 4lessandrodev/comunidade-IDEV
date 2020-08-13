@@ -13,7 +13,7 @@ VAMOS COMEÇAR MANIPULANDO OS DADOS PARA CADASTRO DE USUÁRIOS,
 - id, (number)
 - email, (string)
 - senha, (string)
-- admin (bolean)
+- admin (boolean)
 Todos são obrigatórios;
 
 ☐ Crie um arquivo chamado "students.js";
