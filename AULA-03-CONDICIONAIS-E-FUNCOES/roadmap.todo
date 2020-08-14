@@ -1,22 +1,22 @@
 FUNÇÕES:
-☐ FUNCTIONS
-☐ IF
-☐ ELSE IF
-☐ ELSE
-☐ SWITCH
-☐ FOR
+✔ FUNCTIONS @done (13/08/2020 21:49:46)
+✔ IF @done (13/08/2020 22:09:17)
+✔ ELSE IF @done (13/08/2020 22:09:19)
+✔ ELSE @done (13/08/2020 22:09:18)
+✔ SWITCH @done (13/08/2020 21:49:48)
+✔ FOR @done (13/08/2020 22:23:52)
 
 MÉTODOS DE ARRAY: 
-☐ PUSH
-☐ POP
-☐ UNSHIFT
-☐ SHIFT
-☐ INDEXOF
-☐ SPLICE
-☐ FIND
-☐ FILTER
-☐ LENGTH
-☐ FOREACH
+✔ PUSH @done (13/08/2020 22:41:09)
+✔ POP @done (13/08/2020 22:41:09)
+✔ UNSHIFT @done (13/08/2020 22:41:10)
+✔ SHIFT @done (13/08/2020 22:41:11)
+✔ INDEXOF @done (13/08/2020 22:41:11)
+✔ SPLICE @done (13/08/2020 22:41:12)
+✔ FIND @done (13/08/2020 22:41:13)
+✔ FILTER @done (13/08/2020 22:41:14)
+✔ LENGTH @done (13/08/2020 22:41:16)
+✔ FOREACH @done (13/08/2020 22:43:06)
 
 
 DINÂMICA:
@@ -37,10 +37,10 @@ qual a sua faixa etária;
 ☐ Adicione cada iteração em um array
 ☐ Imprima o array em formato de tabela
 Ao final você deve ter a tabela de uma tabuada com indice de 1 a 10
-----------------------------------------
-| indice | simbolo | fator | resultado |
-|    1   |    *    |   7   |     7     |
-|    2   |    *    |   7   |     14    |
+------------------------------------------------
+| index | indice | simbolo | fator | resultado |
+|   0   |    1   |    *    |   7   |     7     |
+|   1   |    2   |    *    |   7   |     14    |
 
 
 
