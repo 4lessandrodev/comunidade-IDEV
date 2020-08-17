@@ -2,6 +2,8 @@
 const NotFound = Symbol(404);
 
 
+
+//------------------------------------------------------------------------------------
 //Encontrar o índice de um usuário no array 
 const encontrarIndicePorId = (id, array) => {
     let indice = array.findIndex((linha) => linha.id === id);
@@ -10,7 +12,7 @@ const encontrarIndicePorId = (id, array) => {
 
 
 
-
+//------------------------------------------------------------------------------------
 //Lista de usuários 
 const users = [
     {
@@ -35,7 +37,7 @@ const users = [
 
 
 
-
+//------------------------------------------------------------------------------------
 //Construtor de um novo usuário e validação de campos
 const User = (email, password, admin = false) => {
     if (typeof email !== 'string' || !email.includes('@')) {
@@ -61,7 +63,7 @@ const User = (email, password, admin = false) => {
 
 
 
-
+//------------------------------------------------------------------------------------
 //Salvar um novo usuário 
 const create = (user) => {
     users.push(user);
@@ -69,7 +71,7 @@ const create = (user) => {
 
 
 
-
+//------------------------------------------------------------------------------------
 //Processo para salvar um novo usuário
 const validateAndSaveUser = (email, password, admin = false) => {
     const user = User(email, password, admin);
@@ -81,7 +83,7 @@ const validateAndSaveUser = (email, password, admin = false) => {
 
 
 
-
+//------------------------------------------------------------------------------------
 //Listar usuários 
 const index = () => {
     console.table(users);
@@ -89,7 +91,7 @@ const index = () => {
 
 
 
-
+//------------------------------------------------------------------------------------
 //Buscar usuário pelo id
 const findByPk = (id) => {
     if (isNaN(id)) {
@@ -100,7 +102,7 @@ const findByPk = (id) => {
 };
 
 
-
+//------------------------------------------------------------------------------------
 //Buscar usuário pelo nome
 const findOne = (name = '') => {
     if (typeof name !== 'string' || name.length < 1) {
@@ -112,7 +114,46 @@ const findOne = (name = '') => {
 
 
 
+//------------------------------------------------------------------------------------
+//Atualizar um usuário 
+const update = (id, email, password) => {
+    const indice = encontrarIndicePorId(id, users);
+    if (indice === NotFound) {
+        return 'Não foi encontrado o usuário informado';
+    }
+    users[indice] = {
+        email, password 
+    };
+};
 
+
+
+
+//------------------------------------------------------------------------------------
+//Atualizar um usuário 
+const login = (email = '', password = '') => {
+    if (email === '') {
+        return 'Informe um email';
+    } else if (password === '') {
+        return 'Informe uma senha';
+    }
+
+    const user = users.find((user) => user.email === email);
+
+    if (!user) {
+        return 'Usuário ou senha inválida';
+    }
+
+    if (user.password !== password) {
+        return 'Usuário ou senha inválida';
+    }
+
+    return 'Usuário conectado';
+};
+
+
+
+//------------------------------------------------------------------------------------
 //Testando o método salvar
 index();
 validateAndSaveUser('ALINE@gmail.com', '123');
