@@ -19,20 +19,20 @@ OBJETIVO AO FINAL DESTE DESAFIO:
 VAMOS COMEÇAR MANIPULANDO OS DADOS PARA CADASTRO DE USUÁRIOS (ADMIN E COMUNS) E
 CADASTRO DE ESTUDANTES, OK?
 
-☐ Crie um arquivo chamado "users.js";
-☐ Neste crie uma constante chamada "users";
-☐ Essa constante deve armazenar uma lista de usuários;
-☐ Cada usuário deve ter os seguintes atributos:
+✔ Crie um arquivo chamado "users.js"; @done (16/08/2020 20:41:49)
+✔ Neste crie uma constante chamada "users"; @done (16/08/2020 20:41:52)
+✔ Essa constante deve armazenar uma lista de usuários; @done (16/08/2020 20:42:02)
+✔ Cada usuário deve ter os seguintes atributos: @done (16/08/2020 20:42:05)
 - id, (number)
 - email, (string)
 - senha, (string)
 - admin (boolean)
 Todos são obrigatórios;
 
-☐ Crie um arquivo chamado "students.js";
-☐ Neste crie uma constante chamada "students";
-☐ Essa constante deve armazenar uma lista de alunos;
-☐ Cada aluno deve ter os seguintes atributos
+✔ Crie um arquivo chamado "students.js"; @done (16/08/2020 20:43:14)
+✔ Neste crie uma constante chamada "students"; @done (16/08/2020 20:46:05)
+✔ Essa constante deve armazenar uma lista de alunos; @done (16/08/2020 20:46:07)
+✔ Cada aluno deve ter os seguintes atributos @done (16/08/2020 20:46:10)
 - id, (number)
 - nome, (string)
 - gênero, (string)
