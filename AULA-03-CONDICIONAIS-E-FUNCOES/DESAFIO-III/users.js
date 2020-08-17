@@ -5,8 +5,8 @@ const NotFound = Symbol(404);
 
 //------------------------------------------------------------------------------------
 //Encontrar o índice de um usuário no array 
-const encontrarIndicePorId = (id, array) => {
-    let indice = array.findIndex((linha) => linha.id === id);
+const encontrarIndicePorId = (id) => {
+    let indice = users.findIndex((linha) => linha.id === id);
     return (indice === -1) ? NotFound : indice;
 };
 
@@ -118,7 +118,7 @@ const findOne = (email = '') => {
 //------------------------------------------------------------------------------------
 //Atualizar um usuário 
 const update = (id, email = '', password='') => {
-    const indice = encontrarIndicePorId(id, users);
+    const indice = encontrarIndicePorId(id);
     if (indice === NotFound) {
         return 'Não foi encontrado o usuário informado';
     }
@@ -129,7 +129,7 @@ const update = (id, email = '', password='') => {
     email = email.toUpperCase();
 
     users[indice] = {
-        email, password, ...users[indice] 
+        ...users[indice], email, password 
     };
 };
 
@@ -143,7 +143,7 @@ const destroy = (id) => {
     if (isNaN(id)) {
         return 'Informe um id numérico'; 
     }
-    const indice = encontrarIndicePorId(id, users);
+    const indice = encontrarIndicePorId(id);
     if (indice === NotFound) {
         return 'Não foi encontrado o usuário para o id';
     }

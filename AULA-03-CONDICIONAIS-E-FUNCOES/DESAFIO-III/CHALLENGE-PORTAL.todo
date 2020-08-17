@@ -47,14 +47,14 @@ No arquivo users.js crie as seguintes funções
 ✔ Buscar um usuário por id e/ou email; @done (16/08/2020 22:31:11)
 ✔ Login onde verifica se email e senha informadas estão corretas com algum usuário da lista, @done (16/08/2020 22:31:15)
 deve retornar uma mensagem de "usuario conectado" ou "usuário ou senha incorreto";
-☐ Excluir usuário por id;
+✔ Excluir usuário por id; @done (16/08/2020 22:40:21)
 
 No arquivo students.js crie as seguintes funções
 ☐ Salvar novo aluno;
-☐ Listar alunos em formato de tabela;
-☐ Buscar um aluno por nome e/ou id;
-☐ Editar os dados de um aluno específico;
-☐ Excluir um aluno por id;
+✔ Listar alunos em formato de tabela; @done (17/08/2020 00:13:44)
+✔ Buscar um aluno por nome e/ou id; @done (17/08/2020 00:13:46)
+✔ Editar os dados de um aluno específico; @done (17/08/2020 00:18:04)
+✔ Excluir um aluno por id; @done (17/08/2020 00:13:49)
 ☐ Suba o projeto para o github
 
 Observação:
