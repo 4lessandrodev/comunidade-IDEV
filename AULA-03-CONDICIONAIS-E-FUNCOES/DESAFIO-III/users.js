@@ -102,27 +102,23 @@ const findByPk = (id) => {
 };
 
 
-//------------------------------------------------------------------------------------
-//Buscar usuário pelo nome
-const findOne = (name = '') => {
-    if (typeof name !== 'string' || name.length < 1) {
-        return 'Informe um nome em string';
-    }
-    const user = users.find(user => user.id === id);
-    return user;
-};
-
 
 
 //------------------------------------------------------------------------------------
 //Atualizar um usuário 
-const update = (id, email, password) => {
+const update = (id, email = '', password='') => {
     const indice = encontrarIndicePorId(id, users);
     if (indice === NotFound) {
         return 'Não foi encontrado o usuário informado';
     }
+
+    if (email === '' || password === '') {
+        return 'Informe email e senha';
+    }
+    email = email.toUpperCase();
+
     users[indice] = {
-        email, password 
+        email, password, ...users[indice] 
     };
 };
 
@@ -137,7 +133,7 @@ const login = (email = '', password = '') => {
     } else if (password === '') {
         return 'Informe uma senha';
     }
-
+    email = email.toUpperCase();
     const user = users.find((user) => user.email === email);
 
     if (!user) {
@@ -154,10 +150,24 @@ const login = (email = '', password = '') => {
 
 
 //------------------------------------------------------------------------------------
+//Testando o método login
+console.log(login('LUcas@gmail.com', 'ASD123')); //Usuário conectado
+
+
 //Testando o método salvar
 index();
 validateAndSaveUser('ALINE@gmail.com', '123');
 index();
+
+
+//Testando o método atualizar 
+index();
+update(1, "joao@mail.com", '123');
+index();
+
+
+//Testando a função buscar usuário por id 
+console.table(findByPk(1));
 
 
 
