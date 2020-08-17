@@ -89,6 +89,30 @@ const index = () => {
 
 
 
+
+//Buscar usuário pelo id
+const findByPk = (id) => {
+    if (isNaN(id)) {
+        return 'Informe um id numérico';
+    }
+    const user = users.find(user => user.id === id);
+    return user;
+};
+
+
+
+//Buscar usuário pelo nome
+const findOne = (name = '') => {
+    if (typeof name !== 'string' || name.length < 1) {
+        return 'Informe um nome em string';
+    }
+    const user = users.find(user => user.id === id);
+    return user;
+};
+
+
+
+
 //Testando o método salvar
 index();
 validateAndSaveUser('ALINE@gmail.com', '123');

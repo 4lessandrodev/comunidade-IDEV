@@ -50,8 +50,8 @@ deve retornar uma mensagem de "usuario conectado" ou "usuário ou senha incorret
 ☐ Excluir usuário por id;
 
 No arquivo students.js crie as seguintes funções
-☐ Salvar novo aluno;
-☐ Listar alunos em formato de tabela;
+✔ Salvar novo aluno; @done (16/08/2020 21:59:14)
+✔ Listar alunos em formato de tabela; @done (16/08/2020 21:59:16)
 ☐ Buscar um aluno por nome e/ou id;
 ☐ Editar os dados de um aluno específico;
 ☐ Excluir um aluno por id;
