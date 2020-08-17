@@ -1,3 +1,7 @@
+//https://nodejs.org/api/readline.html#readline_event_sigint
+//Programa console que simula o CRUD de um aluno 
+
+
 const stud = require('./students');
 const readline = require('readline');
 const rl = readline.createInterface({
@@ -90,3 +94,5 @@ rl.on('line', (res) => {
 
 
 exibirOpcoes();
+
+
