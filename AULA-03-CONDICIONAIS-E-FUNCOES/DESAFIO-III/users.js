@@ -102,6 +102,17 @@ const findByPk = (id) => {
 };
 
 
+//------------------------------------------------------------------------------------
+//Buscar usuário pelo nome
+const findOne = (email = '') => {
+    if (typeof email !== 'string' || email.length < 1) {
+        return 'Informe um nome em string';
+    }
+    email = email.toUpperCase();
+    const user = users.find(user => user.email === email);
+    return user;
+};
+
 
 
 //------------------------------------------------------------------------------------
@@ -120,6 +131,24 @@ const update = (id, email = '', password='') => {
     users[indice] = {
         email, password, ...users[indice] 
     };
+};
+
+
+
+
+
+//------------------------------------------------------------------------------------
+//Excluir um usuário
+const destroy = (id) => {
+    if (isNaN(id)) {
+        return 'Informe um id numérico'; 
+    }
+    const indice = encontrarIndicePorId(id, users);
+    if (indice === NotFound) {
+        return 'Não foi encontrado o usuário para o id';
+    }
+    users.splice(indice, 1);
+    return 'Usuário removido';
 };
 
 
@@ -170,4 +199,12 @@ index();
 console.table(findByPk(1));
 
 
+//Testando encontrar um usuário pelo nome 
+console.table(findOne('DAIANA@GMAIL.COM'));
 
+
+
+//Testando remover um usuário
+index(); 
+console.table(destroy(2));
+index();

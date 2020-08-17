@@ -42,16 +42,16 @@ Todos são obrigatórios;
 Dos atributos apenas curso é opcional;
 
 No arquivo users.js crie as seguintes funções
-☐ Salvar um novo usuário;
-☐ Listar usuários em formato de tabela;
-☐ Buscar um usuário por id e/ou email;
-☐ Login onde verifica se email e senha informadas estão corretas com algum usuário da lista,
+✔ Salvar um novo usuário; @done (16/08/2020 22:31:01)
+✔ Listar usuários em formato de tabela; @done (16/08/2020 22:31:03)
+✔ Buscar um usuário por id e/ou email; @done (16/08/2020 22:31:11)
+✔ Login onde verifica se email e senha informadas estão corretas com algum usuário da lista, @done (16/08/2020 22:31:15)
 deve retornar uma mensagem de "usuario conectado" ou "usuário ou senha incorreto";
 ☐ Excluir usuário por id;
 
 No arquivo students.js crie as seguintes funções
-✔ Salvar novo aluno; @done (16/08/2020 21:59:14)
-✔ Listar alunos em formato de tabela; @done (16/08/2020 21:59:16)
+☐ Salvar novo aluno;
+☐ Listar alunos em formato de tabela;
 ☐ Buscar um aluno por nome e/ou id;
 ☐ Editar os dados de um aluno específico;
 ☐ Excluir um aluno por id;
