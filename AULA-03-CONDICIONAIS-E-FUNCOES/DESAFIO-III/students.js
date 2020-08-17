@@ -1,3 +1,4 @@
+
 const NotFound = Symbol(404);
 
 function encontrarIndicePorId(id) {
@@ -129,27 +130,44 @@ const generateAndSaveStudent = (name = '', gender = '', class_ = '', course = ''
 
 
 
-//Testando salvar um novo aluno 
-index();
-generateAndSaveStudent('Alex', 'M', '7S', 'JS', '31/05/1990');
-index();
+// //Testando salvar um novo aluno 
+// index();
+// generateAndSaveStudent('Alex', 'M', '7S', 'JS', '31/05/1990');
+// index();
 
 
 
-//Buscando o aluno 2
-console.table(findByPk(2));
+// //Buscando o aluno 2
+// console.table(findByPk(2));
 
 
-//Atualizando o aluno 1
-console.table(update(1, name = 'LIMIS', gender = 'F', class_ = '9T', course = 'JAVA', born_date = '30/08/1900'));
-index();
+// //Atualizando o aluno 1
+// console.table(update(1, name = 'LIMIS', gender = 'F', class_ = '9T', course = 'JAVA', born_date = '30/08/1900'));
+// index();
 
 
 
-//Buscar o aluno pelo nome 
-console.table(findOne('LIMIS'));
+// //Buscar o aluno pelo nome 
+// console.table(findOne('LIMIS'));
 
 
-//Excluindo o aluno 3
-destroy(3);
-index();
+// //Excluindo o aluno 3
+// destroy(3);
+// index();
+
+
+
+
+module.exports = {
+    NotFound,
+    encontrarIndicePorId,
+    students,
+    Student,
+    index,
+    create,
+    findByPk,
+    findOne,
+    destroy,
+    generateAndSaveStudent,
+    update
+};
