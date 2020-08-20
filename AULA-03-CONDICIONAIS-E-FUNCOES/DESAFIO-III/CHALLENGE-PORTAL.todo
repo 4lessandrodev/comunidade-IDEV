@@ -55,7 +55,7 @@ No arquivo students.js crie as seguintes funções
 ✔ Buscar um aluno por nome e/ou id; @done (17/08/2020 00:13:46)
 ✔ Editar os dados de um aluno específico; @done (17/08/2020 00:18:04)
 ✔ Excluir um aluno por id; @done (17/08/2020 00:13:49)
-☐ Suba o projeto para o github
+✔ Suba o projeto para o github @done (17/08/2020 17:38:53)
 
 Observação:
 Você deve validar os dados obrigatórios antes de salvar;

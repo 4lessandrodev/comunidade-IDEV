@@ -6,7 +6,8 @@ OBJETIVO AO FINAL DESTE DESAFIO:
 	É ESPERADO QUE OS MEMBROS OBTENHA DOMÍNIO DO PADRÃO MVC, CONCEITO DE TESTES E LÓGICA DE PROGRAMAÇÃO
 
 	ENTREGA: É ESPERADO QUE SEJA ENTREGUE UMA ESTRUTURA MVC PARA OS ARQUIVOS USERS.JS E STUDENTS.JS, BEM COMO
-	OS TESTES INICIAIS PARA AS FUNÇÕES EXISTENTES, E UM SISTEMA DE TERMINAL PARA AS FUNÇÕES DE USUÁRIO.
+	OS TESTES INICIAIS PARA AS FUNÇÕES EXISTENTES, E UM SISTEMA DE TERMINAL PARA AS FUNÇÕES CRUD DE USUÁRIO E
+	ALUNOS.
 
 	PONTUAÇÃO NO RANKING:
 	SUBMETER O DESAFIO EM ATÉ 4 DIAS: 500 PONTOS;
@@ -23,8 +24,9 @@ OBJETIVO AO FINAL DESTE DESAFIO:
 	- Validar a função construtora se a mesma está aceitando tipos de dados diferente dos definidos
 	(String, Number, Boolean) para cada propriedade
 	- Validar o retorno dos métodos CREATE, READ, UPDATE, DELETE
-	☐ Crie um sistema de console que simula os métodos CREATE, READ, UPDATE, DELETE e LOGIN para
+	☐ Crie uma VIEW de sistema de console terminal que simula os métodos CREATE, READ, UPDATE, DELETE e LOGIN para
 	usuário
+	☐ Crie a VIEW de sistema de console terminal que simula os métodos CREATE, READ, UPDATE, DELETE e FIND para Alunos
 
 As duplas tem liberdade para distribuir entre si as tarefas, mas o ideal é que façam juntos
 PRAZO DE ENTREGA: 7 DIAS CORRIDOS
