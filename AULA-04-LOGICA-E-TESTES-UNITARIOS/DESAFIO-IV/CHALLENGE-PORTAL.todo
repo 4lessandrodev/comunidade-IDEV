@@ -10,23 +10,32 @@ OBJETIVO AO FINAL DESTE DESAFIO:
 	ALUNOS.
 
 	PONTUAÇÃO NO RANKING:
-	SUBMETER O DESAFIO EM ATÉ 4 DIAS: 500 PONTOS;
-	SUBMETER O DESAFIO EM ATÉ 5 DIAS: 400 PONTOS;
-	SUBMETER O DESAFIO EM ATÉ 6 DIAS: 300 PONTOS;
-	SUBMETER O DESAFIO EM ATÉ 7 DIAS: 200 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 4 DIAS: 400 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 5 DIAS: 300 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 6 DIAS: 200 PONTOS;
+	SUBMETER O DESAFIO EM ATÉ 7 DIAS: 100 PONTOS;
 
 	☐ Faça com que o projeto tenha um arquivo de pacotes de dependências (package.json)
 	☐ Transforme a estrutura de pastas do projeto de acordo com o padrão MVC (Model, View, Controller)
-	☐ Crie uma pasta de testes com o nome (tests)
+	☐ Crie as pastas model e controller
+		- Crie as models de aluno e usuário cada qual sendo uma classe contrutora 
+		- Crie os métodos CRUD estáticos em cada classe, de modo que se comuniquem com o nosso 
+	"banco de dados" fictício
+	☐ Crie uma pasta com o nome config na raiz do projeto 
+	☐ Dentro desta pasta exporte um objeto de arrays que simula nosso banco de dados 
+	☐ Crie os controllers com as regras da aplicação
+	☐ Crie uma pasta de testes com o nome (test)
+	
 	☐ Instale o Jest
 	☐ Configure seu package.json para executar os testes
 	☐ Escreva os testes de validação para as funções de usuários e alunos 
 	- Validar a função construtora se a mesma está aceitando tipos de dados diferente dos definidos
 	(String, Number, Boolean) para cada propriedade
 	- Validar o retorno dos métodos CREATE, READ, UPDATE, DELETE
+
 	☐ Crie uma VIEW de sistema de console terminal que simula os métodos CREATE, READ, UPDATE, DELETE e LOGIN para
-	usuário
-	☐ Crie a VIEW de sistema de console terminal que simula os métodos CREATE, READ, UPDATE, DELETE e FIND para Alunos
+	usuário (opcional) + 100 PONTOS
+	☐ Crie a VIEW de sistema de console terminal que simula os métodos CREATE, READ, UPDATE, DELETE e FIND para Alunos (opcional) + 100 PONTOS
 
 As duplas tem liberdade para distribuir entre si as tarefas, mas o ideal é que façam juntos
 PRAZO DE ENTREGA: 7 DIAS CORRIDOS
@@ -40,6 +49,7 @@ REFERÊNCIAS:
 1 - PORTAL ESCOLAR (REQUISITOS): https://github.com/ALESSANDROLMENEZES/Desafio-Portal-Escolar-comunidade-IDEV
 2 - JEST: https://jestjs.io/docs/en/getting-started
 3 - FUNÇÕES DE CONSOLE TERMINAL: https://nodejs.org/api/readline.html#readline_event_sigint
-4 - PROJETO CONSOLE TERMINAL: encurtador.com.br/alrR7
+4 - PROJETO CONSOLE TERMINAL: PASTA DESAFIO-III da Aula-03 - GITHUB - ARQUIVO [console.js]
 5 - PADRÃO MVC: https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308
-6 - CRUD: https://www.codecademy.com/articles/what-is-crud
+6 - PROJETO MODELO MVC: https://github.com/ALESSANDROLMENEZES/modelo-MVC
+7 - CRUD: https://www.codecademy.com/articles/what-is-crud
