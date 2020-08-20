@@ -17,7 +17,7 @@ OBJETIVO AO FINAL DESTE DESAFIO:
 
 	☐ Faça com que o projeto tenha um arquivo de pacotes de dependências (package.json)
 	☐ Transforme a estrutura de pastas do projeto de acordo com o padrão MVC (Model, View, Controller)
-	☐ Crie as pastas model e controller
+	☐ Crie as pastas models e controllers
 		- Crie as models de aluno e usuário cada qual sendo uma classe contrutora 
 		- Crie os métodos CRUD estáticos em cada classe, de modo que se comuniquem com o nosso 
 	"banco de dados" fictício
