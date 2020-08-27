@@ -1,0 +1,38 @@
+PORTAL ESCOLAR:
+
+	☐ INICIAR UM PROJETO COM NPM
+	☐ CRIAR PASTAS NO PADRÃO MVC
+	☐ CRIAR CLASSES
+	☐ MÉTODO CONSTRUTOR
+	☐ MÉTODOS DE CLASSE
+	☐ GETTERS AND SETTERS 
+
+VAMOS MODULARIZAR O NOSSO PORTAL ESCOLAR DE ACORDO COM O PADRÃO MVC
+
+OBJETIVO AO FINAL DESTA DINÂMICA:
+	É ESPERADO QUE OS MEMBROS OBTENHA DOMÍNIO DO PADRÃO MVC, CONCEITO DE CLASSES E TESTES COM JEST
+
+	☐ Inicie um novo projeto gerenciado por dependências NPM (package.json)
+	☐ Crie a estrutura de pastas do projeto de acordo com o padrão MVC (Model, View, Controller)
+	☐ Crie uma pasta com o nome config na raiz do projeto 
+	☐ Dentro desta pasta exporte um objeto de arrays que simula nosso banco de dados 
+	☐ Crie as pastas models e controllers
+		- Crie as model de usuário 
+		- Crie os métodos CRUD na classe, de modo que se comuniquem com o nosso "banco de dados" fictício
+	☐ Crie os controllers com as regras CRUD da aplicação de modo que se comuniquem com as models
+	☐ Crie uma pasta de testes com o nome (tests)
+	☐ Instale o Jest
+	☐ Configure seu package.json para executar os testes
+	☐ Escreva os testes de validação para as funções de usuário 
+	- Validar a função construtora se a mesma está aceitando tipos de dados diferente dos definidos
+	(String, Number, Boolean) para cada propriedade
+	- Validar o retorno dos métodos CREATE, READ, UPDATE, DELETE
+
+REFERÊNCIAS:
+1 - PORTAL ESCOLAR (REQUISITOS): https://github.com/ALESSANDROLMENEZES/Desafio-Portal-Escolar-comunidade-IDEV
+2 - JEST: https://jestjs.io/docs/en/getting-started
+3 - FUNÇÕES DE CONSOLE TERMINAL: https://nodejs.org/api/readline.html#readline_event_sigint
+4 - PROJETO CONSOLE TERMINAL: PASTA DESAFIO-III da Aula-03 - GITHUB - ARQUIVO [console.js]
+5 - PADRÃO MVC: https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308
+6 - PROJETO MODELO MVC: https://github.com/ALESSANDROLMENEZES/modelo-MVC
+7 - CRUD: https://www.codecademy.com/articles/what-is-crud
