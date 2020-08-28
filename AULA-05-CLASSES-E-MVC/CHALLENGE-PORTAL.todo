@@ -1,25 +1,26 @@
 PORTAL ESCOLAR:
 
-	☐ INICIAR UM PROJETO COM NPM
-	☐ CRIAR PASTAS NO PADRÃO MVC
-	☐ CRIAR CLASSES
-	☐ MÉTODO CONSTRUTOR
-	☐ MÉTODOS DE CLASSE
-	☐ GETTERS AND SETTERS 
+	✔ INICIAR UM PROJETO COM NPM (NPM INIT ) @done (27/08/2020 21:19:30)
+	✔ CRIAR PASTAS NO PADRÃO MVC - MODELS - VIEWS - CONTROLLERS @done (27/08/2020 21:27:01)
+	✔ CRIAR CLASSES @done (27/08/2020 22:20:45)
+	✔ MÉTODO CONSTRUTOR @done (27/08/2020 22:20:46)
+	✔ MÉTODOS DE CLASSE @done (27/08/2020 22:20:46)
+	✔ GETTERS AND SETTERS @done (27/08/2020 22:20:47)
 
 VAMOS MODULARIZAR O NOSSO PORTAL ESCOLAR DE ACORDO COM O PADRÃO MVC
 
 OBJETIVO AO FINAL DESTA DINÂMICA:
 	É ESPERADO QUE OS MEMBROS OBTENHA DOMÍNIO DO PADRÃO MVC, CONCEITO DE CLASSES E TESTES COM JEST
-
-	☐ Inicie um novo projeto gerenciado por dependências NPM (package.json)
-	☐ Crie a estrutura de pastas do projeto de acordo com o padrão MVC (Model, View, Controller)
-	☐ Crie uma pasta com o nome config na raiz do projeto 
-	☐ Dentro desta pasta exporte um objeto de arrays que simula nosso banco de dados 
-	☐ Crie as pastas models e controllers
+	✔ Criar um repositorio e dar acesso aos colegas @done (27/08/2020 22:40:48)
+	✔ Inicie um novo projeto gerenciado por dependências NPM (package.json) @done (27/08/2020 22:40:52)
+	✔ Crie a estrutura de pastas do projeto de acordo com o padrão MVC (Model, View, Controller) @done (27/08/2020 22:40:58)
+	✔ Crie uma pasta com o nome config na raiz do projeto @done (27/08/2020 23:43:26)
+	✔ Dentro desta pasta exporte um objeto de arrays que simula nosso banco de dados @done (27/08/2020 23:43:30)
+	✔ Criar classe @done (27/08/2020 23:43:31)
+	✔ Crie as pastas models e controllers @done (27/08/2020 23:43:34)
 		- Crie as model de usuário 
 		- Crie os métodos CRUD na classe, de modo que se comuniquem com o nosso "banco de dados" fictício
-	☐ Crie os controllers com as regras CRUD da aplicação de modo que se comuniquem com as models
+	✔ Crie os controllers com as regras CRUD da aplicação de modo que se comuniquem com as models @done (27/08/2020 23:43:43)
 	☐ Crie uma pasta de testes com o nome (tests)
 	☐ Instale o Jest
 	☐ Configure seu package.json para executar os testes
