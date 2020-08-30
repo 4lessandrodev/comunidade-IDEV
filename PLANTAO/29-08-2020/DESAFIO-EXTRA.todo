@@ -76,3 +76,8 @@ Sua classe deve ter os 4 métodos estáticos:
 ☐ Editar > Deve editar os dados um elemento específico no array de nosso banco de dados provisório
 ☐ Excluir > Deve eliminar um novo elemento específico no array de nosso banco de dados provisório
 ☐ Listar > Deve dar um console.table de nosso banco de dados provisório
+
+☐ Todos os atributos devem ter seus getters and setters, 
+☐ Todos os atributos devem ter seu tipo validado
+☐ Se o tipo de valor for diferente do esperado o código deve estourar um erro para o programador 
+
