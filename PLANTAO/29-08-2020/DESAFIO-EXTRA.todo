@@ -1,0 +1,78 @@
+Olá, parabéns por ter chegado até aqui.
+Isso mostra o quanto você está determinado(a) em aprender coisas novas
+
+Este desafio tem como objetivo fixar todo o conceito de classes e 
+te mostrar o quanto você evoluiu nesse meio tempo
+
+Este desafio é individual, mas pode ser feito em duplas.
+
+☐ Crie uma pasta chamada config 
+☐ Dentro da pasta config crie o seu banco de dados provisório "database.js"
+    - Este será um array vazio 
+    - Exporte este array de forma que você consiga importar e utiliza-lo em outros arquivos quaisquer
+☐ Escolha um dos elementos abaixo
+    - Pessoa
+    - Carro 
+    - Smartphone 
+    - Computador 
+    - SmartTV
+
+☐ Após escolher um dos elementos, crie um arquivo e uma classe com o nome do elemento escolhido, 
+lembrando que as classes possuem a primeira letra maiúscula tanto para o arquivo quanto para o nome da
+classe. Exemplo: "Pessoa.js" e "class Pessoa"
+
+Se você escolheu a classe Pessoa deve ter os seguintes atributos:
+☐ CPF: String 
+☐ nome: String de no máximo 80 caracteres 
+☐ idade: Number inteiro deve ser menor que 150
+☐ genero: String apenas "F" ou "M"
+☐ altura: Number flutuante entre 0.30 e menor que 2.5
+Também deve ter os seguintes métodos 
+☐ Falar: Deve receber uma frase por parametro e dar um console.log dessa frase
+☐ Andar: Deve apenas imprimir um console.log da palavra andando...
+
+Se você escolheu a classe Carro deve ter os seguintes atributos:
+☐ Chassi: String 
+☐ marca: String de no máximo 20 caracteres 
+☐ ano: Number inteiro deve ser menor que o ano atual
+☐ quantidadeDePortas: Number entre 3 e 8
+☐ motor: Number flutuante entre 1.0 e menor que 4.1
+Também deve ter os seguintes métodos 
+☐ TrocarMarcha: Deve receber um número por parametro e dar um console.log de "Trancou para a marcha x"
+☐ Bozinar: Deve apenas imprimir um console.log da palavra bozinando...
+
+Se você escolheu a classe Smartphone deve ter os seguintes atributos:
+☐ numeroSerie: String 
+☐ marca: String de no máximo 20 caracteres 
+☐ modelo: String de no máximo 20 caracteres
+☐ quantidadeCameras: Number entre 0 e 6
+☐ tamanhoDaTela: Number flutuante entre 3.0 e menor que 9.1
+Também deve ter os seguintes métodos 
+☐ fazerLigacao: Deve recebe o nome de uma pessoa por parametro dar um console.log de "Ligando para nomedealguem..."
+☐ enviarSMS: Deve recebe o nome de uma pessoa por parametro dar um console.log de "Enviando sms para nomedealguem..."
+
+Se você escolheu a classe Computador deve ter os seguintes atributos:
+☐ numeroSerie: String 
+☐ marca: String de no máximo 20 caracteres 
+☐ ano: Number inteiro deve ser menor que o ano atual
+☐ quantidadeUsb: Number entre 3 e 8
+☐ processador: Number flutuante entre 1.0 e menor que 4.1
+Também deve ter os seguintes métodos 
+☐ Ligar: Deve dar um console.log de "Iniciando..."
+☐ Desligar: Deve apenas imprimir um console.log da palavra "Desligando..."
+
+Se você escolheu a classe SmartTV deve ter os seguintes atributos:
+☐ numeroSerie: String 
+☐ marca: String de no máximo 20 caracteres 
+☐ ano: Number inteiro deve ser menor que o ano atual
+☐ tamanho: Number entre 19 e 90
+☐ garantiaFabrica: Boolean true ou false
+Também deve ter os seguintes métodos 
+☐ Ligar: Deve dar um console.log de "Iniciando..."
+☐ Desligar: Deve apenas imprimir um console.log da palavra "Desligando..."
+
+Sua classe deve ter os 4 métodos estáticos:
+☐ Salvar > Deve adicionar um novo elemento no array de nosso banco de dados provisório
+☐ Editar > Deve editar os dados um elemento específico no array de nosso banco de dados provisório
+☐ Excluir > Deve eliminar um novo elemento específico no array de nosso banco de dados provisório
+☐ Listar > Deve dar um console.table de nosso banco de dados provisório
