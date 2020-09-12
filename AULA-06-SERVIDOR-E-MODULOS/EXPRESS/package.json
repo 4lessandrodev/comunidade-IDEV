@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Servidor com express",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Servidor",
+    "Express"
+  ],
+  "author": "Alessandro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "jest": "^26.4.2"
+  }
+}
