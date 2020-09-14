@@ -1,0 +1,20 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Criando um servidor e modulos",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Servidor",
+    "Modulos"
+  ],
+  "author": "Alessandro",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
